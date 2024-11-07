@@ -22,7 +22,7 @@ jobs:
           project_id: '${{ secrets.GCP_PROJECT_ID }}' # update with your project ID
           workload_identity_provider: '${{ secrets.GCP_WORKLOAD_IDENTITY_PROVIDER }}' # update with your Workload Identity Pool
           service_account: '${{ secrets.GCP_SERVICE_ACCOUNT_EMAIL }}'
-          audience: 'us-east5-docker.pkg.dev'
+          audience: 'gcr.io'
         # configure/login with docker
       - name: gcloud Configure Docker
         run: gcloud auth configure-docker us-east5-docker.pkg.dev
@@ -39,7 +39,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: us-east5-docker.pkg.dev/build-and-push-1660/build-and-push-repo/node-demo:test
+          tags: gcr.io/build-and-push-1660/build-and-push-repo/node-demo:test
 
 # @note: you can use regular docker commands instead of the shared action
 #      - name: Build and Push Without Buildx
