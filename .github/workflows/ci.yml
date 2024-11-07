@@ -22,7 +22,7 @@ jobs:
           project_id: '${{ secrets.GCP_PROJECT_ID }}' # update with your project ID
           workload_identity_provider: '${{ secrets.GCP_WORKLOAD_IDENTITY_PROVIDER }}' # update with your Workload Identity Pool
           service_account: '${{ secrets.GCP_SERVICE_ACCOUNT_EMAIL }}'
-          audience: 'https://gcr.io'
+
         # configure/login with docker
       - name: gcloud Configure Docker
         run: gcloud auth configure-docker us-east5-docker.pkg.dev
