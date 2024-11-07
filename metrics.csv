@@ -1,0 +1,8 @@
+TimeSeries ID,workload_identity_federation/count.iam.googleapis.com/WorkloadIdentityPoolProvider.ALIGN_RATE.REDUCE_SUM.metric.type="iam.googleapis.com/workload_identity_federation/count" resource.type="iam.googleapis.com/WorkloadIdentityPoolProvider".60s.project_id:build-and-push-441003
+project_id,build-and-push-441003
+Wed Nov 06 2024 23:12:00 GMT-0500 (Eastern Standard Time),0.00499980555231476
+Wed Nov 06 2024 23:13:00 GMT-0500 (Eastern Standard Time),0.011666861114351907
+Wed Nov 06 2024 23:28:00 GMT-0500 (Eastern Standard Time),0.009444324072067868
+Wed Nov 06 2024 23:29:00 GMT-0500 (Eastern Standard Time),0.007222342594598798
+Wed Nov 06 2024 23:31:00 GMT-0500 (Eastern Standard Time),0.0019441990699844997
+Wed Nov 06 2024 23:32:00 GMT-0500 (Eastern Standard Time),0.014722467596682167

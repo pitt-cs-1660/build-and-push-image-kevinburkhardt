@@ -1,0 +1,1824 @@
+[
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "kevinburkhardt302@gmail.com",
+        "principalSubject": "user:kevinburkhardt302@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.178.148",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.create invocation-id/d8e49aa595f047ef8bf47c645fc65300 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1011309783620/services/artifactregistry.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/artifactregistry.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-441003/services/artifactregistry.googleapis.com",
+      "request": {
+        "name": "projects/build-and-push-441003/services/artifactregistry.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      }
+    },
+    "insertId": "d3k865e14apb",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "build-and-push-441003",
+        "service": "serviceusage.googleapis.com",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService"
+      }
+    },
+    "timestamp": "2024-11-07T03:40:10.678780Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-441003/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-1011309783620-03cb2c50-19b1-4a1a-83d3-be963661b0ed",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-07T03:40:11.658307052Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "kevinburkhardt302@gmail.com",
+        "principalSubject": "user:kevinburkhardt302@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.178.148",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.create invocation-id/d8e49aa595f047ef8bf47c645fc65300 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1011309783620",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/1011309783620/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/1011309783620",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/1011309783620/operations/acat.p2-1011309783620-03cb2c50-19b1-4a1a-83d3-be963661b0ed"
+    },
+    "insertId": "6o2bqxe15exj",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.longrunning.Operations.GetOperation",
+        "service": "serviceusage.googleapis.com",
+        "project_id": "build-and-push-441003"
+      }
+    },
+    "timestamp": "2024-11-07T03:40:11.267434Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-441003/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-07T03:40:11.605397024Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "kevinburkhardt302@gmail.com",
+        "principalSubject": "user:kevinburkhardt302@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.178.148",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.create invocation-id/d8e49aa595f047ef8bf47c645fc65300 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1011309783620/services/artifactregistry.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/artifactregistry.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-441003/services/artifactregistry.googleapis.com",
+      "request": {
+        "name": "projects/build-and-push-441003/services/artifactregistry.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceResponse",
+        "service": {
+          "name": "projects/1011309783620/services/artifactregistry.googleapis.com",
+          "parent": "projects/1011309783620",
+          "config": {
+            "title": "Artifact Registry API",
+            "name": "artifactregistry.googleapis.com"
+          },
+          "state": "ENABLED"
+        }
+      }
+    },
+    "insertId": "81ui08dqcus",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "service": "serviceusage.googleapis.com",
+        "project_id": "build-and-push-441003"
+      }
+    },
+    "timestamp": "2024-11-07T03:40:13.367349558Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-441003/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-1011309783620-03cb2c50-19b1-4a1a-83d3-be963661b0ed",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-07T03:40:13.367349558Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "kevinburkhardt302@gmail.com",
+        "principalSubject": "user:kevinburkhardt302@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.178.148",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.create invocation-id/d8e49aa595f047ef8bf47c645fc65300 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1011309783620",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/1011309783620/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/1011309783620",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/1011309783620/operations/acat.p2-1011309783620-03cb2c50-19b1-4a1a-83d3-be963661b0ed"
+    },
+    "insertId": "behodxe18sen",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "build-and-push-441003"
+      }
+    },
+    "timestamp": "2024-11-07T03:40:14.023981Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-441003/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-07T03:40:14.923027781Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "kevinburkhardt302@gmail.com",
+        "principalSubject": "user:kevinburkhardt302@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.178.148",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.create invocation-id/d8e49aa595f047ef8bf47c645fc65300 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-07T03:40:15.843207770Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+      "authorizationInfo": [
+        {
+          "resource": "projects/build-and-push-441003/locations/us-east5",
+          "permission": "artifactregistry.repositories.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-441003/locations/us-east5",
+      "request": {
+        "repository": {
+          "name": "projects/build-and-push-441003/locations/us-east5/repositories/build-and-push-repo",
+          "dockerConfig": {
+            "immutableTags": true
+          },
+          "format": "DOCKER"
+        },
+        "repositoryId": "build-and-push-repo",
+        "parent": "projects/build-and-push-441003/locations/us-east5",
+        "@type": "type.googleapis.com/google.devtools.artifactregistry.v1.CreateRepositoryRequest"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      }
+    },
+    "insertId": "10yaa3dbb6",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "build-and-push-441003",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-07T03:40:15.837474411Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-441003/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/build-and-push-441003/locations/us-east5/operations/5bd1e1b1-5430-430a-af65-f32ac9c2c9a0",
+      "producer": "artifactregistry.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-07T03:40:16.294351874Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "service-agent-manager@system.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "private",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/build-and-push-441003",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/build-and-push-441003",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/build-and-push-441003",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/build-and-push-441003",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-441003",
+      "serviceData": {
+        "@type": "type.googleapis.com/google.iam.v1.logging.AuditData",
+        "policyDelta": {
+          "bindingDeltas": [
+            {
+              "action": "ADD",
+              "role": "roles/artifactregistry.serviceAgent",
+              "member": "serviceAccount:service-1011309783620@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+            }
+          ]
+        }
+      },
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "1011309783620",
+        "policy": {
+          "bindings": [
+            {
+              "members": [
+                "user:kevinburkhardt302@gmail.com"
+              ],
+              "role": "roles/owner"
+            },
+            {
+              "members": [
+                "serviceAccountId:104071102976689468858"
+              ],
+              "role": "roles/artifactregistry.serviceAgent"
+            }
+          ],
+          "etag": "BwYmSl7zMIY="
+        }
+      },
+      "response": {
+        "bindings": [
+          {
+            "role": "roles/artifactregistry.serviceAgent",
+            "members": [
+              "serviceAccount:service-1011309783620@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+            ]
+          },
+          {
+            "members": [
+              "user:kevinburkhardt302@gmail.com"
+            ],
+            "role": "roles/owner"
+          }
+        ],
+        "etag": "BwYmSmSVNKg=",
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "l5c3hle3svgo",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "build-and-push-441003"
+      }
+    },
+    "timestamp": "2024-11-07T03:40:16.844093Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-441003/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-07T03:40:18.115084766Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "kevinburkhardt302@gmail.com",
+        "principalSubject": "user:kevinburkhardt302@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+      "resourceName": "projects/build-and-push-441003/locations/us-east5/repositories/build-and-push-repo",
+      "response": {
+        "vulnerabilityScanningConfig": {
+          "lastEnableTime": "2024-11-07T03:40:15.850268451Z"
+        },
+        "mode": "STANDARD_REPOSITORY",
+        "format": "DOCKER",
+        "dockerConfig": {
+          "immutableTags": true
+        },
+        "@type": "type.googleapis.com/google.protobuf.Any",
+        "sbomConfig": {},
+        "name": "projects/build-and-push-441003/locations/us-east5/repositories/build-and-push-repo",
+        "description": "For 1660 project"
+      }
+    },
+    "insertId": "m82sckd1pzp",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+        "project_id": "build-and-push-441003",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-07T03:40:24.736248218Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-441003/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/build-and-push-441003/locations/us-east5/operations/5bd1e1b1-5430-430a-af65-f32ac9c2c9a0",
+      "producer": "artifactregistry.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-07T03:40:25.193488184Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "Exception calling IAM: Service account github-actions-sa@build-and-push-441003.iam.gserviceaccount.com does not exist."
+      },
+      "authenticationInfo": {
+        "principalEmail": "kevinburkhardt302@gmail.com",
+        "principalSubject": "user:kevinburkhardt302@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.178.148",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.projects.add-iam-policy-binding invocation-id/0b5a83dea0b54208a1622b4f4b4c4d2f environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/build-and-push-441003",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/build-and-push-441003",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-441003",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "policy": {
+          "bindings": [
+            {
+              "members": [
+                "serviceAccount:service-1011309783620@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+              ],
+              "role": "roles/artifactregistry.serviceAgent"
+            },
+            {
+              "members": [
+                "user:kevinburkhardt302@gmail.com"
+              ],
+              "role": "roles/owner"
+            },
+            {
+              "members": [
+                "serviceAccount:github-actions-sa@build-and-push-441003.iam.gserviceaccount.com"
+              ],
+              "role": "roles/artifactregistry.writer"
+            }
+          ],
+          "etag": "BwYmSmSVNKg="
+        },
+        "resource": "build-and-push-441003"
+      }
+    },
+    "insertId": "-7q6nwle8hd4a",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "build-and-push-441003"
+      }
+    },
+    "timestamp": "2024-11-07T03:46:22.051393Z",
+    "severity": "ERROR",
+    "logName": "projects/build-and-push-441003/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-07T03:46:23.490806675Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "kevinburkhardt302@gmail.com",
+        "principalSubject": "user:kevinburkhardt302@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.178.148",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.service-accounts.create invocation-id/deb66cb1ef334918bee21af54553b661 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-07T03:48:25.327620324Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.admin.v1.CreateServiceAccount",
+      "authorizationInfo": [
+        {
+          "resource": "projects/build-and-push-441003",
+          "permission": "iam.serviceAccounts.create",
+          "granted": true,
+          "resourceAttributes": {
+            "type": "iam.googleapis.com/ServiceAccount"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-441003",
+      "request": {
+        "account_id": "github-actions-sa",
+        "@type": "type.googleapis.com/google.iam.admin.v1.CreateServiceAccountRequest",
+        "name": "projects/build-and-push-441003",
+        "service_account": {
+          "display_name": "GitHub Actions Service Account"
+        }
+      },
+      "response": {
+        "oauth2_client_id": "112819498388782549302",
+        "name": "projects/build-and-push-441003/serviceAccounts/github-actions-sa@build-and-push-441003.iam.gserviceaccount.com",
+        "project_id": "build-and-push-441003",
+        "etag": "MDEwMjE5MjA=",
+        "email": "github-actions-sa@build-and-push-441003.iam.gserviceaccount.com",
+        "@type": "type.googleapis.com/google.iam.admin.v1.ServiceAccount",
+        "unique_id": "112819498388782549302",
+        "display_name": "GitHub Actions Service Account"
+      }
+    },
+    "insertId": "1r9wyaie5ugjx",
+    "resource": {
+      "type": "service_account",
+      "labels": {
+        "email_id": "github-actions-sa@build-and-push-441003.iam.gserviceaccount.com",
+        "project_id": "build-and-push-441003",
+        "unique_id": "112819498388782549302"
+      }
+    },
+    "timestamp": "2024-11-07T03:48:25.306194037Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-441003/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-07T03:48:25.806100041Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "kevinburkhardt302@gmail.com",
+        "principalSubject": "user:kevinburkhardt302@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.178.148",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.projects.add-iam-policy-binding invocation-id/8f9b678bf6294aada0953d0002cc0b20 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/build-and-push-441003",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/build-and-push-441003",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/build-and-push-441003",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/build-and-push-441003",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-441003",
+      "serviceData": {
+        "@type": "type.googleapis.com/google.iam.v1.logging.AuditData",
+        "policyDelta": {
+          "bindingDeltas": [
+            {
+              "action": "ADD",
+              "role": "roles/artifactregistry.writer",
+              "member": "serviceAccount:github-actions-sa@build-and-push-441003.iam.gserviceaccount.com"
+            }
+          ]
+        }
+      },
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "policy": {
+          "bindings": [
+            {
+              "members": [
+                "serviceAccount:service-1011309783620@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+              ],
+              "role": "roles/artifactregistry.serviceAgent"
+            },
+            {
+              "role": "roles/owner",
+              "members": [
+                "user:kevinburkhardt302@gmail.com"
+              ]
+            },
+            {
+              "role": "roles/artifactregistry.writer",
+              "members": [
+                "serviceAccount:github-actions-sa@build-and-push-441003.iam.gserviceaccount.com"
+              ]
+            }
+          ],
+          "etag": "BwYmSmSVNKg="
+        },
+        "resource": "build-and-push-441003"
+      },
+      "response": {
+        "bindings": [
+          {
+            "role": "roles/artifactregistry.serviceAgent",
+            "members": [
+              "serviceAccount:service-1011309783620@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+            ]
+          },
+          {
+            "members": [
+              "serviceAccount:github-actions-sa@build-and-push-441003.iam.gserviceaccount.com"
+            ],
+            "role": "roles/artifactregistry.writer"
+          },
+          {
+            "role": "roles/owner",
+            "members": [
+              "user:kevinburkhardt302@gmail.com"
+            ]
+          }
+        ],
+        "@type": "type.googleapis.com/google.iam.v1.Policy",
+        "etag": "BwYmSoeAQzA="
+      }
+    },
+    "insertId": "-8kq7xae8beu2",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "build-and-push-441003"
+      }
+    },
+    "timestamp": "2024-11-07T03:50:02.063908Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-441003/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-07T03:50:03.942387426Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "kevinburkhardt302@gmail.com",
+        "principalSubject": "user:kevinburkhardt302@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.178.148",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.projects.add-iam-policy-binding invocation-id/d3d95b3d067145a7bf333cf251605b02 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/build-and-push-441003",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/build-and-push-441003",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/build-and-push-441003",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/build-and-push-441003",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-441003",
+      "serviceData": {
+        "@type": "type.googleapis.com/google.iam.v1.logging.AuditData",
+        "policyDelta": {
+          "bindingDeltas": [
+            {
+              "action": "ADD",
+              "role": "roles/storage.admin",
+              "member": "serviceAccount:github-actions-sa@build-and-push-441003.iam.gserviceaccount.com"
+            }
+          ]
+        }
+      },
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "build-and-push-441003",
+        "policy": {
+          "etag": "BwYmSoeAQzA=",
+          "bindings": [
+            {
+              "members": [
+                "serviceAccount:service-1011309783620@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+              ],
+              "role": "roles/artifactregistry.serviceAgent"
+            },
+            {
+              "role": "roles/artifactregistry.writer",
+              "members": [
+                "serviceAccount:github-actions-sa@build-and-push-441003.iam.gserviceaccount.com"
+              ]
+            },
+            {
+              "members": [
+                "user:kevinburkhardt302@gmail.com"
+              ],
+              "role": "roles/owner"
+            },
+            {
+              "members": [
+                "serviceAccount:github-actions-sa@build-and-push-441003.iam.gserviceaccount.com"
+              ],
+              "role": "roles/storage.admin"
+            }
+          ]
+        }
+      },
+      "response": {
+        "bindings": [
+          {
+            "members": [
+              "serviceAccount:service-1011309783620@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+            ],
+            "role": "roles/artifactregistry.serviceAgent"
+          },
+          {
+            "members": [
+              "serviceAccount:github-actions-sa@build-and-push-441003.iam.gserviceaccount.com"
+            ],
+            "role": "roles/artifactregistry.writer"
+          },
+          {
+            "members": [
+              "user:kevinburkhardt302@gmail.com"
+            ],
+            "role": "roles/owner"
+          },
+          {
+            "members": [
+              "serviceAccount:github-actions-sa@build-and-push-441003.iam.gserviceaccount.com"
+            ],
+            "role": "roles/storage.admin"
+          }
+        ],
+        "@type": "type.googleapis.com/google.iam.v1.Policy",
+        "etag": "BwYmSpqKiAI="
+      }
+    },
+    "insertId": "-jz4slme88kik",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "build-and-push-441003"
+      }
+    },
+    "timestamp": "2024-11-07T03:55:21.658071Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-441003/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-07T03:55:22.719254800Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "The parent resource is invalid."
+      },
+      "authenticationInfo": {
+        "principalEmail": "kevinburkhardt302@gmail.com",
+        "principalSubject": "user:kevinburkhardt302@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.178.148",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.workload-identity-pools.create invocation-id/3a19f6e8c5124b24982f8f6f1a798d8e environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-07T03:58:50.728131340Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "authorizationInfo": [
+        {
+          "resource": "projects/build-and-push-441003/locations/us-east5",
+          "permission": "iam.workloadIdentityPools.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-441003/locations/us-east5",
+      "request": {
+        "parent": "projects/build-and-push-441003/locations/us-east5",
+        "workloadIdentityPoolId": "github",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolRequest",
+        "workloadIdentityPool": {
+          "disabled": false,
+          "displayName": "GitHub Actions Pool"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      }
+    },
+    "insertId": "o5ewspdzps2",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+        "project_id": "build-and-push-441003"
+      }
+    },
+    "timestamp": "2024-11-07T03:58:50.719212871Z",
+    "severity": "ERROR",
+    "logName": "projects/build-and-push-441003/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-07T03:58:51.586815904Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "The parent resource is invalid."
+      },
+      "authenticationInfo": {
+        "principalEmail": "kevinburkhardt302@gmail.com",
+        "principalSubject": "user:kevinburkhardt302@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.178.148",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.workload-identity-pools.create invocation-id/c90cf821bb7842fa8b978f1cea10f43b environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-07T03:59:13.071504418Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "authorizationInfo": [
+        {
+          "resource": "projects/build-and-push-441003/locations/us-east5",
+          "permission": "iam.workloadIdentityPools.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-441003/locations/us-east5",
+      "request": {
+        "workloadIdentityPool": {
+          "displayName": "GitHub Actions Pool",
+          "disabled": false
+        },
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolRequest",
+        "parent": "projects/build-and-push-441003/locations/us-east5",
+        "workloadIdentityPoolId": "github"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east5"
+        ]
+      }
+    },
+    "insertId": "1xxciare11s9m",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+        "project_id": "build-and-push-441003",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-07T03:59:13.060585499Z",
+    "severity": "ERROR",
+    "logName": "projects/build-and-push-441003/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-07T03:59:13.935542681Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "kevinburkhardt302@gmail.com",
+        "principalSubject": "user:kevinburkhardt302@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.178.148",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.workload-identity-pools.create invocation-id/ad010da529e44aa2a3227318281fb91d environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-07T04:01:24.041125503Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "authorizationInfo": [
+        {
+          "resource": "projects/build-and-push-441003/locations/global",
+          "permission": "iam.workloadIdentityPools.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-441003/locations/global",
+      "request": {
+        "workloadIdentityPoolId": "github-pool",
+        "workloadIdentityPool": {
+          "displayName": "GitHub Pool",
+          "disabled": false
+        },
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolRequest",
+        "parent": "projects/build-and-push-441003/locations/global"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "6xs7wve10wlk",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "build-and-push-441003",
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool"
+      }
+    },
+    "timestamp": "2024-11-07T04:01:24.034894344Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-441003/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1011309783620/locations/global/workloadIdentityPools/github-pool/operations/bigarfhxwc4qmeeitoqmoai000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-07T04:01:25.118204411Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "kevinburkhardt302@gmail.com",
+        "principalSubject": "user:kevinburkhardt302@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "resourceName": "projects/build-and-push-441003/locations/global",
+      "response": {
+        "@type": "type.googleapis.com/google.longrunning.Operation",
+        "name": "projects/1011309783620/locations/global/workloadIdentityPools/github-pool/operations/bigarfhxwc4qmeeitoqmoai000000000"
+      }
+    },
+    "insertId": "-4zkz37c3q2",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "build-and-push-441003",
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool"
+      }
+    },
+    "timestamp": "2024-11-07T04:01:24.419563Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-441003/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1011309783620/locations/global/workloadIdentityPools/github-pool/operations/bigarfhxwc4qmeeitoqmoai000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-07T04:01:24.573577634Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "kevinburkhardt302@gmail.com",
+        "principalSubject": "user:kevinburkhardt302@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.178.148",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/2c966e534f874be7802104b6394df95c environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-07T04:02:10.195887346Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/build-and-push-441003/locations/global/workloadIdentityPools/github-pool",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-441003/locations/global/workloadIdentityPools/github-pool",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest",
+        "workloadIdentityPoolProvider": {
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "attributeMapping": {
+            "attribute.repository": "assertion.repository",
+            "google.subject": "assertion.sub",
+            "attribute.job_workflow_ref": "assertion.job_workflow_ref"
+          },
+          "displayName": "GitHub Provider",
+          "disabled": false,
+          "attributeCondition": "attribute.aud=='https://gcr.io'"
+        },
+        "workloadIdentityPoolProviderId": "github-provider",
+        "parent": "projects/build-and-push-441003/locations/global/workloadIdentityPools/github-pool"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "1xxciare11shw",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "build-and-push-441003",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-07T04:02:10.170177466Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-441003/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1011309783620/locations/global/workloadIdentityPools/github-pool/providers/github-provider/operations/bigarqxxwc4qmeeq3tn6qai000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-07T04:02:10.955543406Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "kevinburkhardt302@gmail.com",
+        "principalSubject": "user:kevinburkhardt302@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "resourceName": "projects/build-and-push-441003/locations/global/workloadIdentityPools/github-pool",
+      "response": {
+        "name": "projects/1011309783620/locations/global/workloadIdentityPools/github-pool/providers/github-provider/operations/bigarqxxwc4qmeeq3tn6qai000000000",
+        "@type": "type.googleapis.com/google.longrunning.Operation"
+      }
+    },
+    "insertId": "2ieh02cutl",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "project_id": "build-and-push-441003",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-07T04:02:10.488799Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-441003/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1011309783620/locations/global/workloadIdentityPools/github-pool/providers/github-provider/operations/bigarqxxwc4qmeeq3tn6qai000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-07T04:02:11.354570988Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "kevinburkhardt302@gmail.com",
+        "principalSubject": "user:kevinburkhardt302@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.178.148",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.service-accounts.add-iam-policy-binding invocation-id/0309464c54f74cb7a48cdb15b6ba8a78 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-07T04:06:47.276562867Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.admin.v1.SetIAMPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/-/serviceAccounts/112819498388782549302",
+          "permission": "iam.serviceAccounts.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "name": "projects/-/serviceAccounts/112819498388782549302"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/-/serviceAccounts/112819498388782549302",
+      "serviceData": {
+        "@type": "type.googleapis.com/google.iam.v1.logging.AuditData",
+        "policyDelta": {
+          "bindingDeltas": [
+            {
+              "action": "ADD",
+              "role": "roles/iam.workloadIdentityUser",
+              "member": "principalSet://iam.googleapis.com/projects/1011309783620/locations/global/workloadIdentityPools/github-pool/attribute.repository/pitt-cs-1660/build-and-push-image-kevinburkhardt"
+            }
+          ]
+        }
+      },
+      "request": {
+        "resource": "projects/build-and-push-441003/serviceAccounts/github-actions-sa@build-and-push-441003.iam.gserviceaccount.com",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "policy": {
+          "version": 3,
+          "etag": "ACAB",
+          "bindings": [
+            {
+              "role": "roles/iam.workloadIdentityUser",
+              "members": [
+                "principalSet://iam.googleapis.com/projects/1011309783620/locations/global/workloadIdentityPools/github-pool/attribute.repository/pitt-cs-1660/build-and-push-image-kevinburkhardt"
+              ]
+            }
+          ]
+        }
+      },
+      "response": {
+        "etag": "BwYmSsNbcVc=",
+        "bindings": [
+          {
+            "members": [
+              "principalSet://iam.googleapis.com/projects/1011309783620/locations/global/workloadIdentityPools/github-pool/attribute.repository/pitt-cs-1660/build-and-push-image-kevinburkhardt"
+            ],
+            "role": "roles/iam.workloadIdentityUser"
+          }
+        ],
+        "version": 1,
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "17kfnmxe9cbhj",
+    "resource": {
+      "type": "service_account",
+      "labels": {
+        "email_id": "github-actions-sa@build-and-push-441003.iam.gserviceaccount.com",
+        "project_id": "build-and-push-441003",
+        "unique_id": "112819498388782549302"
+      }
+    },
+    "timestamp": "2024-11-07T04:06:46.823366273Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-441003/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-07T04:06:48.241066343Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 6,
+        "message": "Requested entity already exists"
+      },
+      "authenticationInfo": {
+        "principalEmail": "kevinburkhardt302@gmail.com",
+        "principalSubject": "user:kevinburkhardt302@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.178.148",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/5832f85bc91747cf8b2f2585edca17b8 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-07T04:20:58.531184947Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/build-and-push-441003/locations/global/workloadIdentityPools/github-pool",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-441003/locations/global/workloadIdentityPools/github-pool",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest",
+        "workloadIdentityPoolProvider": {
+          "attributeMapping": {
+            "attribute.job_workflow_ref": "assertion.job_workflow_ref",
+            "attribute.repository": "assertion.repository",
+            "google.subject": "assertion.sub"
+          },
+          "attributeCondition": "attribute.repository == 'pitt-cs-1660/build-and-push-image-kevinburkhardt' && attribute.aud == 'https://gcr.io'",
+          "disabled": false,
+          "displayName": "GitHub Provider",
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          }
+        },
+        "parent": "projects/build-and-push-441003/locations/global/workloadIdentityPools/github-pool",
+        "workloadIdentityPoolProviderId": "github-provider"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "6xs7wve10zg1",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "project_id": "build-and-push-441003"
+      }
+    },
+    "timestamp": "2024-11-07T04:20:58.503717082Z",
+    "severity": "ERROR",
+    "logName": "projects/build-and-push-441003/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-07T04:20:59.381761901Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "kevinburkhardt302@gmail.com",
+        "principalSubject": "user:kevinburkhardt302@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.178.148",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.workload-identity-pools.providers.delete invocation-id/e7c414be7da543f6b4866d07464a8730 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-07T04:22:01.340173507Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.DeleteWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/1011309783620/locations/global/workloadIdentityPools/github-pool/providers/github-provider",
+          "permission": "iam.workloadIdentityPoolProviders.delete",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/1011309783620/locations/global/workloadIdentityPools/github-pool/providers/github-provider",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.DeleteWorkloadIdentityPoolProviderRequest",
+        "name": "projects/1011309783620/locations/global/workloadIdentityPools/github-pool/providers/github-provider"
+      }
+    },
+    "insertId": "s1nzdldza90",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.DeleteWorkloadIdentityPoolProvider",
+        "project_id": "build-and-push-441003",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-07T04:22:01.319727892Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-441003/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1011309783620/locations/global/workloadIdentityPools/github-pool/providers/github-provider/operations/bigar2mawg4qmeey2gc2maq000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-07T04:22:02.375084111Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "kevinburkhardt302@gmail.com",
+        "principalSubject": "user:kevinburkhardt302@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.DeleteWorkloadIdentityPoolProvider",
+      "resourceName": "projects/1011309783620/locations/global/workloadIdentityPools/github-pool/providers/github-provider",
+      "response": {
+        "name": "projects/1011309783620/locations/global/workloadIdentityPools/github-pool/providers/github-provider/operations/bigar2mawg4qmeey2gc2maq000000000",
+        "@type": "type.googleapis.com/google.longrunning.Operation"
+      }
+    },
+    "insertId": "-p8h1vmc71o",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "project_id": "build-and-push-441003",
+        "method": "google.iam.v1.WorkloadIdentityPools.DeleteWorkloadIdentityPoolProvider"
+      }
+    },
+    "timestamp": "2024-11-07T04:22:01.617281Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-441003/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1011309783620/locations/global/workloadIdentityPools/github-pool/providers/github-provider/operations/bigar2mawg4qmeey2gc2maq000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-07T04:22:01.725911298Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 6,
+        "message": "Requested entity already exists"
+      },
+      "authenticationInfo": {
+        "principalEmail": "kevinburkhardt302@gmail.com",
+        "principalSubject": "user:kevinburkhardt302@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.178.148",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/ca65b1366589469793956bc0bc9a0f53 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-07T04:22:44.671665932Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/build-and-push-441003/locations/global/workloadIdentityPools/github-pool",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-441003/locations/global/workloadIdentityPools/github-pool",
+      "request": {
+        "workloadIdentityPoolProvider": {
+          "disabled": false,
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "attributeMapping": {
+            "google.subject": "assertion.sub",
+            "attribute.job_workflow_ref": "assertion.job_workflow_ref",
+            "attribute.repository": "assertion.repository"
+          },
+          "attributeCondition": "attribute.repository == 'pitt-cs-1660/build-and-push-image-kevinburkhardt' && attribute.aud == 'gcr.io'",
+          "displayName": "GitHub Provider"
+        },
+        "parent": "projects/build-and-push-441003/locations/global/workloadIdentityPools/github-pool",
+        "workloadIdentityPoolProviderId": "github-provider",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "n1ylxfdzst4",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "service": "iam.googleapis.com",
+        "project_id": "build-and-push-441003"
+      }
+    },
+    "timestamp": "2024-11-07T04:22:44.654131184Z",
+    "severity": "ERROR",
+    "logName": "projects/build-and-push-441003/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-07T04:22:45.451658880Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 5,
+        "message": "Requested entity was not found."
+      },
+      "authenticationInfo": {
+        "principalEmail": "kevinburkhardt302@gmail.com",
+        "principalSubject": "user:kevinburkhardt302@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.178.148",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.workload-identity-pools.providers.delete invocation-id/4482639a77be4df4b0e0d7c0b1491082 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-07T04:23:27.147911054Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.DeleteWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/build-and-push-441003/locations/global/workloadIdentityPools/github-pool/providers/github-provider",
+          "permission": "iam.workloadIdentityPoolProviders.delete",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-441003/locations/global/workloadIdentityPools/github-pool/providers/github-provider",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.DeleteWorkloadIdentityPoolProviderRequest",
+        "name": "projects/build-and-push-441003/locations/global/workloadIdentityPools/github-pool/providers/github-provider"
+      }
+    },
+    "insertId": "6xs7wve10zvo",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "build-and-push-441003",
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.DeleteWorkloadIdentityPoolProvider"
+      }
+    },
+    "timestamp": "2024-11-07T04:23:27.131651966Z",
+    "severity": "ERROR",
+    "logName": "projects/build-and-push-441003/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-07T04:23:28.400093030Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 6,
+        "message": "Requested entity already exists"
+      },
+      "authenticationInfo": {
+        "principalEmail": "kevinburkhardt302@gmail.com",
+        "principalSubject": "user:kevinburkhardt302@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.178.148",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/60b1b70354c44df883c15db870d3b516 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-07T04:23:42.481390383Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/build-and-push-441003/locations/global/workloadIdentityPools/github-pool",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-441003/locations/global/workloadIdentityPools/github-pool",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest",
+        "parent": "projects/build-and-push-441003/locations/global/workloadIdentityPools/github-pool",
+        "workloadIdentityPoolProviderId": "github-provider",
+        "workloadIdentityPoolProvider": {
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "attributeMapping": {
+            "attribute.repository": "assertion.repository",
+            "google.subject": "assertion.sub",
+            "attribute.job_workflow_ref": "assertion.job_workflow_ref"
+          },
+          "displayName": "GitHub Provider",
+          "attributeCondition": "attribute.repository == 'pitt-cs-1660/build-and-push-image-kevinburkhardt' && attribute.aud == 'gcr.io'",
+          "disabled": false
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "17clz00dyywz",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "project_id": "build-and-push-441003",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider"
+      }
+    },
+    "timestamp": "2024-11-07T04:23:42.466939917Z",
+    "severity": "ERROR",
+    "logName": "projects/build-and-push-441003/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-07T04:23:43.353434380Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "kevinburkhardt302@gmail.com",
+        "principalSubject": "user:kevinburkhardt302@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.178.148",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/7173754cad23449194965b6d1af5360e environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-07T04:25:13.301654106Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/build-and-push-441003/locations/global/workloadIdentityPools/github-pool",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-441003/locations/global/workloadIdentityPools/github-pool",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest",
+        "workloadIdentityPoolProvider": {
+          "attributeCondition": "attribute.repository == 'pitt-cs-1660/build-and-push-image-kevinburkhardt' && attribute.aud == 'gcr.io'",
+          "disabled": false,
+          "attributeMapping": {
+            "attribute.repository": "assertion.repository",
+            "google.subject": "assertion.sub",
+            "attribute.job_workflow_ref": "assertion.job_workflow_ref"
+          },
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "displayName": "GitHub Provider"
+        },
+        "parent": "projects/build-and-push-441003/locations/global/workloadIdentityPools/github-pool",
+        "workloadIdentityPoolProviderId": "github-provider-2"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "tq21g8d2aq1",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "project_id": "build-and-push-441003",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider"
+      }
+    },
+    "timestamp": "2024-11-07T04:25:13.284813916Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-441003/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1011309783620/locations/global/workloadIdentityPools/github-pool/providers/github-provider-2/operations/bigarkmcwg4qmefyxt53yaq000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-07T04:25:13.723896763Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "kevinburkhardt302@gmail.com",
+        "principalSubject": "user:kevinburkhardt302@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "resourceName": "projects/build-and-push-441003/locations/global/workloadIdentityPools/github-pool",
+      "response": {
+        "@type": "type.googleapis.com/google.longrunning.Operation",
+        "name": "projects/1011309783620/locations/global/workloadIdentityPools/github-pool/providers/github-provider-2/operations/bigarkmcwg4qmefyxt53yaq000000000"
+      }
+    },
+    "insertId": "-77h4nzc6zt",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "project_id": "build-and-push-441003",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-07T04:25:13.665403Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-441003/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1011309783620/locations/global/workloadIdentityPools/github-pool/providers/github-provider-2/operations/bigarkmcwg4qmefyxt53yaq000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-07T04:25:14.669294311Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "kevinburkhardt302@gmail.com",
+        "principalSubject": "user:kevinburkhardt302@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.178.148",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/c6957a8e2063448388cc12a8b1130887 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-07T04:29:29.073054196Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/build-and-push-441003/locations/global/workloadIdentityPools/github-pool",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-441003/locations/global/workloadIdentityPools/github-pool",
+      "request": {
+        "workloadIdentityPoolProvider": {
+          "attributeMapping": {
+            "google.subject": "assertion.sub",
+            "attribute.job_workflow_ref": "assertion.job_workflow_ref",
+            "attribute.repository": "assertion.repository"
+          },
+          "displayName": "GitHub Provider",
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "disabled": false,
+          "attributeCondition": "attribute.repository == 'pitt-cs-1660/build-and-push-image-kevinburkhardt' && attribute.aud == 'https://gcr.io'"
+        },
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest",
+        "parent": "projects/build-and-push-441003/locations/global/workloadIdentityPools/github-pool",
+        "workloadIdentityPoolProviderId": "github-provider-3"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "s1nzdldzbd1",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "build-and-push-441003",
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider"
+      }
+    },
+    "timestamp": "2024-11-07T04:29:29.055041137Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-441003/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1011309783620/locations/global/workloadIdentityPools/github-pool/providers/github-provider-3/operations/bigarkmewg4qmefazkfocaq000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-07T04:29:30.470453005Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "kevinburkhardt302@gmail.com",
+        "principalSubject": "user:kevinburkhardt302@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "resourceName": "projects/build-and-push-441003/locations/global/workloadIdentityPools/github-pool",
+      "response": {
+        "@type": "type.googleapis.com/google.longrunning.Operation",
+        "name": "projects/1011309783620/locations/global/workloadIdentityPools/github-pool/providers/github-provider-3/operations/bigarkmewg4qmefazkfocaq000000000"
+      }
+    },
+    "insertId": "ibre3dc4rl",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "project_id": "build-and-push-441003",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-07T04:29:29.741116Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-441003/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1011309783620/locations/global/workloadIdentityPools/github-pool/providers/github-provider-3/operations/bigarkmewg4qmefazkfocaq000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-07T04:29:30.128061529Z"
+  }
+]
