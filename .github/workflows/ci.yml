@@ -19,9 +19,9 @@ jobs:
         id: auth
         name: Authenticate to GCP
         with:
-          project_id: 'cicd-440701' # update with your project ID
-          workload_identity_provider: 'projects/426522528652/locations/global/workloadIdentityPools/github-pool/providers/github-provider-new' # update with your Workload Identity Pool
-          service_account: 'cicd-1660@cicd-440701.iam.gserviceaccount.com'
+          project_id: '${{ secrets.GCP_PROJECT_ID }}' # update with your project ID
+          workload_identity_provider: '${{ secrets.GCP_WORKLOAD_IDENTITY_PROVIDER }}' # update with your Workload Identity Pool
+          service_account: '${{ secrets.GCP_SERVICE_ACCOUNT_EMAIL }}'
 
         # configure/login with docker
       - name: gcloud Configure Docker
@@ -39,7 +39,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: us-east5-docker.pkg.dev/cc-fall2024/dansc0de/node-demo:test
+          tags: us-east5-docker.pkg.dev/build-and-push-1660/build-and-push-repo/node-demo:test
 
 # @note: you can use regular docker commands instead of the shared action
 #      - name: Build and Push Without Buildx
