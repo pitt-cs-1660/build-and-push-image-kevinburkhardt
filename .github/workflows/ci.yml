@@ -39,7 +39,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: us-east5-docker.pkg.dev/cc-fall2024/dansc0de/node-demo:test
+          tags: us-central1-docker.pkg.dev/cc-fall2024/dansc0de/node-demo:test
 
 # @note: you can use regular docker commands instead of the shared action
 #      - name: Build and Push Without Buildx
